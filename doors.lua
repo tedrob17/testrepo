@@ -17,7 +17,6 @@ end
 
 local openAngle = -1.6
 local closedAngle = 0
-local openTime = 3
 
 function setupDoor(Door)
 	local ClickDetector = Door:FindFirstChildOfClass('ClickDetector')
