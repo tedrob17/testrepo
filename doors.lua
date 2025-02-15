@@ -27,6 +27,8 @@ function setupDoor(Door)
 	if not (doorHinge and doorMotor) then
 		warn('Setup failed for', Door)
 		return
+	else
+		print("Setup success for", Door)
 	end
 
 	if ClickDetector then
