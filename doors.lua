@@ -59,5 +59,3 @@ function startSetup()
 end
 
 startSetup()
-
-print('jackie is so skibidi')
